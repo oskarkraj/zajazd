@@ -1,0 +1,61 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 62.5%;
+	font-family: 'PT Sans', 'sans-serif';
+	background: url(images/stripe.png) repeat;
+}
+
+p {
+	font-size: 2em;
+	margin-bottom: 15px;
+	color: #4c493d;
+	
+}
+
+#page-wrap {
+	width: 900px;
+	height: 50px;	
+}
+
+#contact-area {
+	width: 850px;
+	margin-top: 20px;
+	padding: 0;
+	text-align: center;
+
+}
+
+#contact-area input, #contact-area textarea {
+	width: 150px;
+	font-family: 'PT Sans', 'sans-serif';
+	font-size: 16px;
+	margin: 0 8px 15px 0;
+	border: 2px solid #ccc;
+	
+}
+
+#contact-area textarea {
+	height: 90px;
+}
+
+#contact-area textarea:focus, #contact-area input:focus {
+	border: 2px solid #F48E1A;
+}
+
+#contact-area textarea:hover, #contact-area input:hover{
+	background-color: #F48E1A;
+}
+
+#contact-area input.submit-button {
+	width: 100px;
+}
+
+label {
+	text-align: left;
+	width: 20px;
+	font-size: 16px;
+}

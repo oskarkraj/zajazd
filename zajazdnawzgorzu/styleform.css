@@ -1,0 +1,63 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 62.5%;
+	font-family: 'PT Sans', 'sans-serif';
+	background: url(images/stripe.png) repeat;
+}
+
+p {
+	font-size: 2em;
+	margin-bottom: 15px;
+	color: #4c493d;
+}
+
+#page-wrap {
+	width: 660px;
+	padding: 20px 150px 20px 150px;
+	margin: 20px auto;
+	min-height: 350px;
+	height: auto !important;
+	height: 500px;
+	margin-left: 90px;
+}
+
+#contact-area {
+	width: 600px;
+	margin-top: 25px;
+}
+
+#contact-area input, #contact-area textarea {
+	padding: 5px;
+	width: 471px;
+	font-family: 'PT Sans', 'sans-serif';
+	font-size: 1.4em;
+	margin: 0px 0px 10px 0px;
+	border: 2px solid #ccc;
+}
+
+#contact-area textarea {
+	height: 90px;
+}
+
+#contact-area textarea:focus, #contact-area input:focus {
+	border: 2px solid #F48E1A;
+}
+
+#contact-area input.submit-button {
+	width: 100px;
+	float: left;
+	margin-left: 190px;
+}
+
+label {
+	float: left;
+	text-align: left;
+	margin-right: 15px;
+	width: 150px;
+	padding-top: 5px;
+	font-size: 1.4em;
+}

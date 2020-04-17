@@ -1,0 +1,61 @@
+/* Basic sample */
+
+body{
+	overflow-x:hidden;
+	overflow-y:scroll;
+	background-color:#e5e3da;
+	margin:0;
+	padding:0;
+}
+a {
+	text-decoration: none;
+	color: #1a1918;
+}
+h1, a {
+	margin: 0 auto;
+	text-align: center;
+	color: #1a1918;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+.flipbook-viewport{
+	overflow:hidden;
+	width:100%;
+	height:100%;
+}
+
+.flipbook-viewport .container{
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin:auto;
+}
+
+.flipbook-viewport .flipbook{
+	width:1350px;
+	height:900px;
+	left:-661px;
+	top:-360px;
+	
+}
+
+.flipbook-viewport .page{
+	width:461px;
+	height:600px;
+	background-color:#fff;
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	
+}
+
+.flipbook-viewport .page img{
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	margin:0;
+	
+}

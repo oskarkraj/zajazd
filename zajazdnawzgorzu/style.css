@@ -1,0 +1,363 @@
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, cite, code, em, img, del, ins, q,  small, strong, sub, sup, tt, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-style: inherit;
+	font-family: 'PT Sans', 'sans-serif';
+	font-size: 100%;
+	font-smooth: always;
+	vertical-align: baseline;
+	list-style: none;
+	
+}
+
+body {
+	background-image: url(pattern.png);
+	background-repeat: repeat-x-y; 
+}
+
+
+#navlist li{
+	display: inline;
+	list-style-type: none;
+	padding: 0 9px 0 9px;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+a {
+	text-decoration: none;
+	color: #4c483d;
+}
+
+h1 {
+	font-weight: 700;
+	font-size: 18px;
+	padding-top: 25px;
+	padding-bottom: 10px;
+	padding-left: 15px;
+}
+
+h2 {
+	padding-top: 15px;
+	font-weight: 400;
+	text-align: center;
+	font-style: italic;
+	font-size: 24px;
+	color: #4c483d;
+}
+
+h3 {
+	font-size: 22px;
+	font-weight: 400;
+	padding-bottom: 10px;
+}
+
+h4 {
+	font-size: 22px;
+	font-weight: 400;
+	color: #4c483d;
+	padding: 20px 0 0px 15px;
+	text-align: left;
+}
+b {
+	font-size: 18px;
+	text-align: left;
+	color: #4c483d;
+}
+
+li#kuch {
+	font-size: 18px;
+	text-align: left;
+	padding: 10px 20px 0 20px;
+	line-height: 22px;
+}
+
+li#kuch2 {
+	font-size: 18px;
+	text-align: left;
+	padding: 10px 20px 0 20px;
+	line-height: 26px;
+}
+	
+p#main {
+	font-size: 18px;
+	text-align: center;
+	padding: 20px 20px 0 20px;
+	line-height: 24px;
+}
+
+p#top {
+	padding-left: 20px;
+	font-style: italic;
+}
+
+p#col {
+	padding-top: 10px;
+}
+
+p#off {
+	font-size: 18px;
+	text-align: left;
+	padding: 10px 20px 0 20px;
+	line-height: 24px;
+}
+p#lok {
+	font-size: 18px;
+	text-align: center;
+	padding: 20px 20px 0 20px;
+	line-height: 24px;
+}
+p#foot {
+	padding-top: 15px;
+	padding-left: 10px;
+	font-size: 13px;
+	display: inline;
+	float: left;
+}
+
+p#date3 {
+	margin: 0;
+	padding: 0;
+}
+
+p#kon {
+	padding-top: 5px;
+	font-weight: 400;
+	text-align: center;
+	font-size: 18px;
+	color: #4c483d;
+}
+
+#footernav li  {
+	display: inline;
+	text-align: right;
+	float: right;
+	padding: 13px 8px 0 8px;
+}
+#footernav a  {
+	font-size: 13px;
+	text-align: right;
+}
+.wifix {
+	width: 960px;
+	margin: 0 auto;
+}
+#wifi {
+	float: right;
+	padding-right: 10px;
+}
+
+.navcontainer {
+	width: 960px;
+	margin: 0 auto;
+	text-align: right;
+}
+
+.logo_fix {
+	width: 940px;
+	height: 30px;
+	padding-top: 30px;
+	margin: 0 auto;
+}
+
+.logo {
+	background: url(logo.png);
+	width: 241px;
+	height: 159px;
+	float: left;
+}
+
+.main_box {
+	background-color: green;
+	width: 960px;
+	margin: 0 auto;
+}
+#legend {
+	width: 940px;
+	height: auto;
+	text-align: center;
+}
+#legend img {
+	padding-left: 150px;
+}
+.calcent {
+	padding-top: 20px;
+	padding-left: 28px;
+}
+
+.top_box {
+	background: url(top_box.png);
+	width: 960px;
+	height: 369px;
+	margin: 160px auto;
+}
+
+.top_p {
+	float: right;
+	margin: 10px 10px 0 0; 
+	width: 700px;
+	height: 302px;
+}
+
+.left_menu {
+	background: url(left_menu.png);
+	width: 256px;
+	height: 353px;
+	margin-top: -545px;
+	
+}
+
+.orange {
+	background: url(orange_bar.png);
+	margin: 0 auto;
+	margin-top: 50px;
+	width: 960px;
+	height: 5px;
+}
+
+.main_cont_proper {
+	background: #f0ebdd;
+	width: 960px;
+	height: auto;
+	margin: 0 auto;
+	padding-bottom: 20px;
+}
+.main_cont {
+	background: url(main_cont.png);
+	width: 960px;
+	height: 760px;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+.main_cont_auto {
+	background: url(main_cont.png);
+	width: 960px;
+	min-height: 400px;
+	max-height: 960px;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+.left_menu_x {
+	width: 956px;
+	margin: 0 auto;
+}
+.footer_box {
+	background: url(footer.png);
+	width: 960px;
+	height: 43px;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+.columns {
+	width: 960px;
+	text-align: center;
+	margin-top: 100px;
+	padding-bottom: 30px;
+}
+.dekoracje {
+	width: 960px;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.kuch_phot {
+	width: 960px;
+	text-align: center;
+	margin-top: 70px;
+}
+.galeria{
+	width: 960px;
+	text-align: center;
+	margin-top: 10px;
+	padding-bottom: 5px;
+}
+.left_c,
+.center_c,
+.right_c {
+	width: 300px;
+	display: inline-block;
+	margin: 5px;
+}
+.atrakcje_img,
+.menu_img,
+.nocleg_img {
+	width: 300px;
+	height: 165px;
+}
+
+.lightbox {
+	display: none;
+	position: fixed;
+	z-index: 9999;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	top: 0;
+	left: 0;
+	background: black;
+	background: rgba(0,0,0,0.8);
+}
+
+.lightbox img {
+	max-width: 90%;
+	max-height: 90%;
+	margin-top: 3%;
+	opacity: 1.0;
+}
+
+.lightbox:target {
+	display: block;
+	outline: none;
+}
+
+img {
+	opacity: 0.85;
+	filter: alpha(opacity=40); 
+}
+
+img:hover {
+	opacity: 1.0;
+	filter: alpha(opacity=40);
+}
+.fb-fix {
+	margin: 0 auto;
+	width: 734px;
+	height: 20px;
+	text-align: right;
+}
+.fb-like-box {
+	padding-top: 150px;
+	position: absolute;
+	margin-left: 734px;
+}
+.fb-like {
+	visibility: visible;
+}
+
+body#index a#indnav,
+body#oferta a#ofenav,
+body#galeria a#galnav,
+body#kuchnia a#kucnav,
+body#lokalizacja a#loknav,
+body#kontakt a#konnav {
+	font-style: italic;
+}
+
+:focus {outline: 0;}
+
+
+.clear{
+	font-size:0px; line-height:0px; clear:both;
+	}
+.clearboth{
+	clear:both;
+	}
+.clearleft{
+	clear:left;
+	}
+.clearright{
+	clear:right;
+	}
